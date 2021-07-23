@@ -1,0 +1,101 @@
+#create-room-container {
+  height: 100vh;
+
+  display: flex;
+  align-items: stretch;
+
+  aside {
+    flex: 7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--primary-color);
+    color: var(--white-color);
+
+    padding: 7.5rem 5rem;
+
+    img {
+      max-width: 20rem;
+    }
+
+    strong {
+      font: 700 2.25rem "Poppins", sans-serif;
+      line-height: 2.625rem;
+      margin-top: 1rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+
+      color: var(--white-soft-color);
+    }
+  }
+
+  main {
+    flex: 8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 2rem;
+  }
+}
+
+.create-room-content {
+  width: 100%;
+  max-width: 20rem;
+
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  flex-direction: column;
+
+  > img {
+    align-self: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+
+    margin: 4rem 0 1.5rem;
+  }
+
+  form {
+    input {
+      height: 3.125rem;
+
+      padding: 0 1rem;
+
+      background-color: var(--white-color);
+
+      border-radius: 0.5rem;
+      border: 0.0625rem solid var(--gray-color);
+    }
+
+    button {
+      margin-top: 1rem;
+    }
+
+    button,
+    input {
+      width: 100%;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+
+    font-size: 0.875rem;
+    color: var(--gray-strong-color);
+
+    a {
+      color: var(--secondary-color);
+    }
+  }
+}

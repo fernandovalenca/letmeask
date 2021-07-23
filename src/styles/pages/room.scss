@@ -1,0 +1,104 @@
+#room-container {
+  header {
+    padding: 1.5rem;
+    border-bottom: 0.0625rem solid var(--gray-color);
+
+    .room-header-content {
+      max-width: 76.25rem;
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    > img {
+      max-height: 2.8125rem;
+    }
+  }
+
+  main {
+    padding: 0 1.5rem;
+    max-width: 55.5rem;
+
+    margin: 0 auto;
+
+    .room-title {
+      margin: 2rem 0 1.5rem;
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+      }
+
+      span {
+        margin-left: 1rem;
+        background-color: var(--secondary-color);
+        border-radius: 9999px;
+        padding: 0.5rem 1rem;
+        color: var(--white-color);
+        font-weight: 500;
+        font-size: 0.875rem;
+      }
+    }
+
+    form {
+      textarea {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: var(--white-color);
+        box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.08);
+        resize: vertical;
+        min-height: 8.125rem;
+      }
+
+      .form-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 1rem;
+
+        .user-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 2rem;
+            height: 2em;
+
+            border-radius: 50%;
+          }
+
+          span {
+            margin-left: 0.5rem;
+
+            color: var(--black-soft-color);
+            font-weight: 500;
+            font-size: 0.875rem;
+          }
+        }
+
+        > span {
+          color: var(--gray-strong-color);
+          font-size: 0.875rem;
+          font-weight: 500;
+
+          a {
+            text-decoration: underline;
+            color: var(--primary-color);
+            font-size: 0.875rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    .question-list {
+      margin: 2rem 0;
+    }
+  }
+}
